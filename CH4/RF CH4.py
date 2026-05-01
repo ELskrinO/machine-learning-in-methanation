@@ -154,3 +154,5 @@ exp_results_df = pd.DataFrame({'True_Values_Exp': y_exp, 'Predicted_Values_Exp':
 # Пишем результаты в Excel
 with pd.ExcelWriter('model_evaluation_results_with_predictions.xlsx', mode='a', engine='openpyxl') as writer:
     exp_results_df.to_excel(writer, sheet_name='Exp_Predictions')
+print('end')
+#Изменение, добавь 
