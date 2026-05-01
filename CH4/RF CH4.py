@@ -156,3 +156,4 @@ with pd.ExcelWriter('model_evaluation_results_with_predictions.xlsx', mode='a', 
     exp_results_df.to_excel(writer, sheet_name='Exp_Predictions')
 print('end')
 #Изменение, добавь 
+# некст
